@@ -585,7 +585,9 @@ xs sidebar
 .xs-sidebar-group .content-inner .form-inner .form-group button.thm-btn:hover {
   color: var(--farmology-black);
 }
-
+.con-num{
+  display: flex;
+}
 .sidebar-contact-info {
   position: relative;
   display: block;
@@ -16058,7 +16060,7 @@ Cta One
 .page-header__inner {
   position: relative;
   display: block;
-  padding: 331px 0 173px;
+  padding: 100px 0 100px;
   text-align: center;
   z-index: 1;
 }
@@ -18062,6 +18064,10 @@ Contact Info One
 /***=============================================
 Site Footer 
 =============================================***/
+.icon.add-icon {
+    width: 72px !important;
+    height: 51px;
+}
 .site-footer-four {
   position: relative;
   display: block;
