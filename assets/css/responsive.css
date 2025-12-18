@@ -3669,9 +3669,9 @@
         padding: 5px 30px 5px;
     }
 
-    .main-menu__top-welcome-text {
+    /* .main-menu__top-welcome-text {
         display: none;
-    }
+    } */
 
     .main-menu__wrapper-inner {
         padding: 0 30px;
@@ -3924,14 +3924,7 @@
     .main-menu-four__logo {
         padding: 15px 0;
     }
-
-
-
 }
-
-
-
-
 
 
 @media only screen and (min-width: 1320px) and (max-width: 1550px) {
@@ -3939,9 +3932,9 @@
         padding: 5px 30px 5px;
     }
 
-    .main-menu__top-welcome-text {
+    /* .main-menu__top-welcome-text {
         display: none;
-    }
+    } */
 
     .main-menu__wrapper-inner {
         padding: 0 30px;
