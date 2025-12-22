@@ -6082,7 +6082,7 @@ About One
 }
 
 .author-one__Vission-mission-point li p::before {
-  content: "";
+  /* content: ""; */
   position: absolute;
   bottom: -7px;
   left: 50%;
@@ -6093,7 +6093,7 @@ About One
 }
 
 .author-one__Vission-mission-point li p::after {
-  content: "";
+  /* content: ""; */
   position: absolute;
   bottom: -16px;
   left: 50%;
@@ -6129,7 +6129,7 @@ About One
 
 .author-one__ratting-box {
   position: absolute;
-  bottom: 135px;
+  bottom: 325px;
   left: 20px;
   width: 200px;
   height: 200px;
@@ -6203,6 +6203,7 @@ About One
 
 .author-one__ratting-box-shape img {
   width: auto;
+  display: none;
 }
 
 .author-one__img-shape {
@@ -9504,7 +9505,7 @@ Cta One
 .about-two {
   position: relative;
   display: block;
-  padding: 116px 0 120px;
+  padding: 79px 0 120px;
   background: linear-gradient(0deg, rgba(247, 243, 229, 1) 0%, rgba(253, 187, 45, 0) 100%);
   z-index: 1;
 }
@@ -9566,6 +9567,7 @@ Cta One
 
 .about-two__shape-2 img {
   width: auto;
+  display: none;
 }
 
 .about-two__shape-3 {
@@ -9577,6 +9579,7 @@ Cta One
 
 .about-two__shape-3 img {
   width: auto;
+  display: none;
 }
 
 .about-two__experience {
@@ -15603,7 +15606,7 @@ Cta One
 # About Five
 --------------------------------------------------------------*/
 .about-five {
-  padding: 120px 0 120px;
+  padding: 81px 0 120px;
 }
 
 /*--------------------------------------------------------------
@@ -22943,3 +22946,25 @@ width: 40pX;
     transition-delay: 0.1s;
 }
 
+
+/* New Css  trupti*/
+.accordion-button{
+  display: block !important;
+  background: var(--farmology-primary) !important;
+  padding: 0 !important;
+
+}
+.accrodion-title button:hover {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+.accrodion-title:hover {
+    background-color: inherit !important;
+    color: inherit !important;
+}
+
+.accordion-collapse.collapse.show {
+  display: block !important;
+  max-height: none !important;
+  visibility: visible !important;
+}
