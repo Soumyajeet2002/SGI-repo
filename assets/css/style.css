@@ -9505,7 +9505,7 @@ Cta One
 .about-two {
   position: relative;
   display: block;
-  padding: 79px 0 120px;
+  padding: 116px 0 120px;
   background: linear-gradient(0deg, rgba(247, 243, 229, 1) 0%, rgba(253, 187, 45, 0) 100%);
   z-index: 1;
 }
@@ -15606,7 +15606,7 @@ Cta One
 # About Five
 --------------------------------------------------------------*/
 .about-five {
-  padding: 81px 0 120px;
+  padding: 120px 0 120px;
 }
 
 /*--------------------------------------------------------------
@@ -22946,25 +22946,3 @@ width: 40pX;
     transition-delay: 0.1s;
 }
 
-
-/* New Css  trupti*/
-.accordion-button{
-  display: block !important;
-  background: var(--farmology-primary) !important;
-  padding: 0 !important;
-
-}
-.accrodion-title button:hover {
-    background-color: transparent !important;
-    box-shadow: none !important;
-}
-.accrodion-title:hover {
-    background-color: inherit !important;
-    color: inherit !important;
-}
-
-.accordion-collapse.collapse.show {
-  display: block !important;
-  max-height: none !important;
-  visibility: visible !important;
-}
