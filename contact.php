@@ -199,61 +199,61 @@
         //     loadCaptcha();
         //  });
 
-        //     $("input[name='name']").on("input", function () {
-        //         let name = $(this).val().trim();
-        //         if (/^[A-Za-z ]{3,80}$/.test(name)) {
-        //             $(".error-name").text("");
-        //             $(this).removeClass("is-invalid");
-        //         } else {
-        //             $(".error-name").text("Name must be 3-80 characters (letters & spaces only)");
-        //             $(this).addClass("is-invalid");
-        //         }
-        //     });
+            $("input[name='name']").on("input", function () {
+                let name = $(this).val().trim();
+                if (/^[A-Za-z ]{3,80}$/.test(name)) {
+                    $(".error-name").text("");
+                    $(this).removeClass("is-invalid");
+                } else {
+                    $(".error-name").text("Name must be 3-80 characters (letters & spaces only)");
+                    $(this).addClass("is-invalid");
+                }
+            });
 
-        //    $("input[name='number']").on("input", function () {
-        //         let number = $(this).val().trim();
-        //         if (/^[6-9][0-9]{9}$/.test(number)) {
-        //             $(".error-number").text("");
-        //             $(this).removeClass("is-invalid");
-        //         } else {
-        //             $(".error-number").text("Enter a valid 10-digit Indian mobile number");
-        //             $(this).addClass("is-invalid");
-        //         }
-        //     });
+           $("input[name='number']").on("input", function () {
+                let number = $(this).val().trim();
+                if (/^[6-9][0-9]{9}$/.test(number)) {
+                    $(".error-number").text("");
+                    $(this).removeClass("is-invalid");
+                } else {
+                    $(".error-number").text("Enter a valid 10-digit Indian mobile number");
+                    $(this).addClass("is-invalid");
+                }
+            });
 
 
-        //     $("input[name='email']").on("input", function () {
-        //         let email = $(this).val().trim();
-        //         if (/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[A-Za-z]{2,}$/.test(email)) {
-        //             $(".error-email").text("");
-        //             $(this).removeClass("is-invalid");
-        //         } else {
-        //             $(".error-email").text("Enter a valid email address");
-        //             $(this).addClass("is-invalid");
-        //         }
-        //     });
+            $("input[name='email']").on("input", function () {
+                let email = $(this).val().trim();
+                if (/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[A-Za-z]{2,}$/.test(email)) {
+                    $(".error-email").text("");
+                    $(this).removeClass("is-invalid");
+                } else {
+                    $(".error-email").text("Enter a valid email address");
+                    $(this).addClass("is-invalid");
+                }
+            });
 
-        //     $("input[name='company']").on("input", function () {
-        //         let company = $(this).val().trim();
-        //         if (/^[A-Za-z ]{3,80}$/.test(company)) {
-        //             $(".error-company").text("");
-        //             $(this).removeClass("is-invalid");
-        //         } else {
-        //             $(".error-company").text("Company must be 3-80 characters (letters & spaces only)");
-        //             $(this).addClass("is-invalid");
-        //         }
-        //     });
+            $("input[name='company']").on("input", function () {
+                let company = $(this).val().trim();
+                if (/^[A-Za-z ]{3,80}$/.test(company)) {
+                    $(".error-company").text("");
+                    $(this).removeClass("is-invalid");
+                } else {
+                    $(".error-company").text("Company must be 3-80 characters (letters & spaces only)");
+                    $(this).addClass("is-invalid");
+                }
+            });
 
-        //     $("textarea[name='message']").on("input", function () {
-        //         let message = $(this).val().trim();
-        //         if (/^[A-Za-z0-9 .,!?@#()\-_\r\n]{10,1000}$/s.test(message)) {
-        //             $(".error-message").text("");
-        //             $(this).removeClass("is-invalid");
-        //         } else {
-        //             $(".error-message").text("Message must be 10-1000 characters.");
-        //             $(this).addClass("is-invalid");
-        //         }
-        //     });
+            $("textarea[name='message']").on("input", function () {
+                let message = $(this).val().trim();
+                if (/^[A-Za-z0-9 .,!?@#()\-_\r\n]{10,1000}$/s.test(message)) {
+                    $(".error-message").text("");
+                    $(this).removeClass("is-invalid");
+                } else {
+                    $(".error-message").text("Message must be 10-1000 characters.");
+                    $(this).addClass("is-invalid");
+                }
+            });
 
         // $("input[name='captcha_input']").on("input", function () {
         //    let captcha = $(this).val().trim();
@@ -371,26 +371,21 @@
                         });
                     });
 
+                    // short robust scroll to the newly added alert
                     setTimeout(function () {
-                        const alertBox = document.querySelector(".contact-form .alert");
-                        if (!alertBox) return;
+                        const container = $(".page-wrapper");
+                        const alertBox = $(".contact-form .alert").first();
+                        if (!container.length || !alertBox.length) return;
 
-                        // Step 1: bring alert into view
-                        alertBox.scrollIntoView({
-                            behavior: "instant",
-                            block: "start"
-                        });
+                        const cRect = container[0].getBoundingClientRect();
+                        const aRect = alertBox[0].getBoundingClientRect();
 
-                        // Step 2: adjust for sticky header
-                        const header = document.querySelector("header, .main-header, .sticky-header");
-                        const headerHeight = header ? header.offsetHeight : 0;
+                        const target = Math.max(0, Math.round(container.scrollTop() + (aRect.top - cRect.top) - 20));
 
-                        window.scrollBy({
-                            top: -headerHeight - 20,
-                            behavior: "smooth"
-                        });
-
-                    }, 600);
+                        container.stop(true, true).animate({ scrollTop: target }, 450);
+                        // quick re-scroll to defeat other scripts that may run right after
+                        setTimeout(() => container.stop(true, true).animate({ scrollTop: target }, 300), 300);
+                    }, 200);
 
                     // remove alert after 20 seconds
                     setTimeout(() => {
