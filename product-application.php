@@ -206,24 +206,14 @@
                 <div class="about-two__left wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
                     <div class="about-two__img-box">
                         <div class="about-two__img">
-                            <img src="assets/images/resources/about-two-img-1.png" alt="">
+                            <img src="assets/images/product-application/food-irradiation.png" alt="">
                         </div>
                         <div class="about-two__img-2">
 
-                            <img src="assets/images/product-application/new-picture1.png" alt="">
-                        </div>
-                        <div class="about-two__shape-1">
-                            <img src="assets/images/shapes/about-two-shape-1.png" alt="">
-                        </div>
-                        <div class="about-two__shape-2 float-bob-y">
-                            <img src="assets/images/shapes/about-two-shape-2.png" alt="">
+                            <img src="assets/images/product-application/industrial.png" alt="">
                         </div>
                         <div class="about-two__experience">
-                            <div class="about-two__experience-count-box count-box">
-                                <h3 class="count-text" data-stop="25" data-speed="1500"></h3>
-                                <span>+</span>
-                            </div>
-                            <p class="about-two__experience-count-text">Years of<br> Experience</p>
+                            <p class="about-two__experience-count-text">Food Irradiation</p>
                         </div>
                     </div>
                 </div>
@@ -548,24 +538,14 @@
                 <div class="about-two__left wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
                     <div class="about-two__img-box">
                         <div class="about-two__img">
-                            <img src="assets/images/resources/about-two-img-1.png" alt="">
+                            <img src="assets/images/product-application/iqf.png" alt="">
                         </div>
                         <div class="about-two__img-2">
 
-                            <img src="assets/images/product-application/new-picture1.png" alt="">
-                        </div>
-                        <div class="about-two__shape-1">
-                            <img src="assets/images/shapes/about-two-shape-1.png" alt="">
-                        </div>
-                        <div class="about-two__shape-2 float-bob-y">
-                            <img src="assets/images/shapes/about-two-shape-2.png" alt="">
+                            <img src="assets/images/product-application/iqf-CAD.png" alt="">
                         </div>
                         <div class="about-two__experience">
-                            <div class="about-two__experience-count-box count-box">
-                                <h3 class="count-text" data-stop="25" data-speed="1500"></h3>
-                                <span>+</span>
-                            </div>
-                            <p class="about-two__experience-count-text">Years of<br> Experience</p>
+                            <p class="about-two__experience-count-text">Individually Quick Frozen</p>
                         </div>
                     </div>
                 </div>

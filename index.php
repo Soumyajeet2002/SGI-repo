@@ -618,12 +618,12 @@
                             </div>
                             <!--End Brand One Single-->
                             <!--Start Brand One Single-->
-                            <div class="swiper-slide">
+                            <!-- <div class="swiper-slide">
                                 <div class="brand-one__single">
                                     <a href="javascript:void(0);"><img src="assets/images/brand/brand-1-5.png"
                                             alt=""></a>
                                 </div>
-                            </div>
+                            </div> -->
                             <!--End Brand One Single-->
                         </div>
                     </div>
