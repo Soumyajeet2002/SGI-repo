@@ -28,7 +28,7 @@
                             <div class="blog-details__img">
                                 <img src="assets/images/products/products-1-5.png" alt="">
                                 <div class="blog-details__tag-1">
-                                    <a href="blog-details.html">AgriTech</a>
+                                    <a href="javascript:void(0);">AgriTech</a>
                                 </div>
                                 <div class="blog-details__date">
                                     <p>13 <span>Aug</span></p>

@@ -7,12 +7,12 @@
     </div>
     <div class="container">
         <div class="page-header__inner">
-            <h3>About Us</h3>
+            <h3>About</h3>
             <div class="thm-breadcrumb__inner">
                 <ul class="thm-breadcrumb list-unstyled">
                     <li><a href="index">Home</a></li>
                     <li><span class="fas fa-angle-right"></span></li>
-                    <li>About Us</li>
+                    <li>About</li>
                 </ul>
             </div>
         </div>
@@ -202,7 +202,7 @@
                     <div class="author-one__img-shape">
                         <img src="assets/images/shapes/author-one-img-shape.png" alt="author-one-img-shape">
                     </div>
-                    <div class="author-one__ratting-box">
+                    <!-- <div class="author-one__ratting-box">
                         <div class="author-one__ratting-box-shape float-bob-x">
                             <img src="assets/images/shapes/author-one-ratting-box-shape.png"
                                 alt="author-one-ratting-box-shape">
@@ -222,7 +222,7 @@
                                 <span>4.9 out of 5</span>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="col-xl-3">
@@ -258,7 +258,7 @@
             <div class="col-xl-6 mission_image">
                 <div class="about-two__left wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
                     <div class="about-two__img-box">
-                        <div class="about-two__img">
+                        <div class="infa_new_img_3 about-two__img">
                             <img src="assets/images/resources/mission-4.png" alt="">
                         </div>
                         <div class="new_about_mission about-two__img-2">
@@ -360,6 +360,19 @@
                                                 </div>
                                                 <p>Continuously invest in technology, skilled talent, and process excellence to drive sustainable, long-term value creation.</p>
                                             </li>
+                                            <li>
+                                                <div class="icon">
+                                                    <span class="fas fa-check"></span>
+                                                </div>
+                                                <p>Strengthen India’s agri-export ecosystem by enabling global market access through internationally accepted irradiation and processing standards.</p>
+                                            </li>
+                                            <li>
+                                                <div class="icon">
+                                                    <span class="fas fa-check"></span>
+                                                </div>
+                                                <p>Support sustainable agriculture and food systems by reducing waste, improving traceability, and promoting environmentally responsible technologies.</p>
+                                            </li>
+
                                         </ul>
                                     </div>
                                 </div>
@@ -601,21 +614,23 @@
                                                 <div class="icon">
                                                     <span class="fas fa-check"></span>
                                                 </div>
-                                                <p>Frozen Cold Rooms (-14°C to -20°C): 2 Chambers x 166 MT24.</p>
+                                                <p>Frozen Cold Rooms (-14°C to -20°C): 2 Chambers x 166 MT<sup>24</sup>.</p>
                                             </li>
 
                                             <li>
                                                 <div class="icon">
                                                     <span class="fas fa-check"></span>
                                                 </div>
-                                                <p>Pre-Cooling: 1 Chamber x 26 MT for Vegetables & Fruits25.</p>
+                                                <p>Pre-Cooling: 1 Chamber x 26 MT for Vegetables &amp; Fruits<sup>25</sup>.</p>
                                             </li>
+
                                             <li>
                                                 <div class="icon">
                                                     <span class="fas fa-check"></span>
                                                 </div>
-                                                <p>Cold Storage: 1 x 48 MT and 1 x 57 MT for fresh produce26.</p>
+                                                <p>Cold Storage: 1 × 48 MT and 1 × 57 MT for fresh produce<sup>26</sup>.</p>
                                             </li>
+
                                             <li>
                                                 <div class="icon">
                                                     <span class="fas fa-check"></span>
@@ -626,8 +641,21 @@
                                                 <div class="icon">
                                                     <span class="fas fa-check"></span>
                                                 </div>
-                                                <p>Dry Storage: 1 x 50 MT and 1 x 66 MT for spices, pulses, and onions27.</p>
+                                                <p>Dry Storage: 1 × 50 MT and 1 × 66 MT for spices, pulses, and onions<sup>27</sup>.</p>
                                             </li>
+                                            <li>
+                                                <div class="icon">
+                                                    <span class="fas fa-check"></span>
+                                                </div>
+                                                <p>Integrated cold-chain supports safe irradiation processing.</p>
+                                            </li>
+                                            <li>
+                                                <div class="icon">
+                                                    <span class="fas fa-check"></span>
+                                                </div>
+                                                <p>Multi-temperature storage preserves quality and export readiness.</p>
+                                            </li>
+
                                         </ul>
                                     </div>
                                 </div>
@@ -675,9 +703,9 @@
                     </p> -->
 
                 </div>
-            </div>   
+            </div>
             <div class="col-xl-6">
-                <div class="about-two__left wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
+                <div class="infa_new_img2 about-two__left wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
                     <div class="about-two__img-box">
                         <div class="about-two__img">
                             <img src="assets/images/resources/image 20.png" alt="">

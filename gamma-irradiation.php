@@ -30,14 +30,14 @@
                             <div class="about-three__img">
                                 <img src="assets/images/resources/about-one-image-1.png" alt="">
                                 <div class="about-three__video-link">
-                                    <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" class="video-popup">
+                                    <a href="assets/images/backgrounds/gamma.mp4" class="video-popup">
                                         <div class="about-three__video-icon">
                                             <span class="fas fa-play"></span>
                                             <i class="ripple"></i>
                                         </div>
                                     </a>
                                 </div>
-                                <div class="about-three__img-shape-1"></div>
+                                <div class="about-three__img-shape-1 gamma-about"></div>
                                 <div class="about-three__img-shape-2">
                                     <img src="assets/images/shapes/about-one-img-shape-1.png" alt=""
                                         class="float-bob-y">
@@ -45,11 +45,7 @@
                                 <div class="about-three__img-shape-3">
                                     <img src="assets/images/shapes/about-three-img-shape-3.png" alt="">
                                 </div>
-                                <div class="about-three__text-1">
-                                    <div class="about-three__text-bg-box"></div>
-                                    <p style="background-image: url(assets/images/resources/about-one-image-1.png);">
-                                        Pure & Fresh</p>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
