@@ -32,8 +32,8 @@
                             <p>Contact Us</p>
                             <div class="con-num">
                                 <h3><a href="tel:+918886665318">+91 888 666 5318, </a></h3>
-                                <h3 class="ms-2"><a href="tel:+918886665318">+91 888 666 5318, </a></h3>
-                                <h3 class="ms-2"><a href="tel:+918886665318">+91 888 666 5318</a></h3>
+                                <h3 class="ms-2"><a href="tel:+918886665318">+91 888 666 5319, </a></h3>
+                                <h3 class="ms-2"><a href="tel:+918886665318">+91 984 811 3236</a></h3>
                             </div>
 
                         </div>
@@ -163,7 +163,7 @@
     <!--Contact Page End-->
 
 <?php include 'footer.php'; ?>
-<script src="assets/js/script.js"></script>
+<!-- <script src="assets/js/script.js"></script> -->
 <script>
         (function () {
             'use strict';

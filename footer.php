@@ -40,34 +40,27 @@
                                 <div class="footer-widget__links">
                                     <h4 class="footer-widget__title">Quick links</h4>
                                     <ul class="footer-widget__links-list list-unstyled">
-                                        <li><span class="fas fa-wheat"></span><a href="javascript:void(0);">About Us</a>
+                                        <li><span class="fas fa-wheat"></span><a href="about">About Us</a>
                                         </li>
-                                        <li><span class="fas fa-wheat"></span><a href="javascript:void(0);">Meet Our
-                                                Team</a></li>
-                                        <li><span class="fas fa-wheat"></span><a href="javascript:void(0);">Our
-                                                Projects</a>
+                                        <li><span class="fas fa-wheat"></span><a href="blog">Blog</a></li>
+                                        <li><span class="fas fa-wheat"></span><a href="gamma-irradiation">Gamma Irradiation</a>
                                         </li>
-                                        <li><span class="fas fa-wheat"></span><a href="javascript:void(0);">Help &
+                                        <li><span class="fas fa-wheat"></span><a href="faq">Help &
                                                 FAQs</a></li>
-                                        <li><span class="fas fa-wheat"></span><a href="javascript:void(0);">Contact
+                                        <li><span class="fas fa-wheat"></span><a href="contact">Contact
                                                 Us</a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
                                 <div class="footer-widget__services">
-                                    <h4 class="footer-widget__title">Our Products</h4>
+                                    <h4 class="footer-widget__title">Our Services</h4>
                                     <ul class="footer-widget__links-list list-unstyled">
-                                        <li><span class="fas fa-wheat"></span><a href="javascript:void(0);">Organic &
-                                                Processed</a></li>
-                                        <li><span class="fas fa-wheat"></span><a href="javascript:void(0);">Dairy
-                                                Products</a></li>
-                                        <li><span class="fas fa-wheat"></span><a href="javascript:void(0);">Livestock
-                                                Products</a></li>
-                                        <li><span class="fas fa-wheat"></span><a href="javascript:void(0);">Crops &
-                                                Grains</a></li>
-                                        <li><span class="fas fa-wheat"></span><a href="javascript:void(0);">Fresh
-                                                Vegetables</a></li>
+                                        <li><span class="fas fa-wheat"></span><a href="services">Shrimp Irradiation</a></li>
+                                        <li><span class="fas fa-wheat"></span><a href="services">Vegetable Processing</a></li>
+                                        <li><span class="fas fa-wheat"></span><a href="services">Fruits Processing</a></li>
+                                        <li><span class="fas fa-wheat"></span><a href="services">Frozen Seafoods</a></li>
+                                        <li><span class="fas fa-wheat"></span><a href="services">Meat & Poultry</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -124,9 +117,9 @@
                                 </div>
                                 <div class="site-footer__bottom-menu-box">
                                     <ul class="list-unstyled site-footer__bottom-menu">
-                                        <li><a href="about.html">Terms of Service</a></li>
-                                        <li><a href="about.html">Privacy policy</a></li>
-                                        <li><a href="about.html">Support</a></li>
+                                        <li><a href="javascript:void(0);">Terms of Service</a></li>
+                                        <li><a href="javascript:void(0);">Privacy policy</a></li>
+                                        <li><a href="javascript:void(0);">Support</a></li>
                                     </ul>
                                 </div>
                             </div>

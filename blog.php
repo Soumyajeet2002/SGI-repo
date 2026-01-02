@@ -36,7 +36,7 @@
                             <div class="blog-one__single-inner">
                                 <div class="blog-one__img-box">
                                     <div class="blog-one__img">
-                                        <img src="assets/images/products/products-1-5.png" alt="">
+                                        <img src="assets/images/blog/blog-1.png" alt="">
                                         <div class="blog-one__plus">
                                             <a href="blog-details"><i class="fas fa-plus"></i></a>
                                         </div>
@@ -64,9 +64,7 @@
                                             </a>
                                         </li>
                                     </ul>
-                                    <h3 class="blog-one__title"><a href="blog-details">Why Fresh, Organic
-                                            Vegetables
-                                            Matter</a></h3>
+                                    <h3 class="blog-one__title"><a href="blog-details">How Technology Transforming Surgical Sterilization</a></h3>
                                     <p class="blog-one__text">Learn how organic vegetables benefit your health and the
                                         planet at the same time.</p>
                                 </div>
@@ -111,8 +109,7 @@
                                             </a>
                                         </li>
                                     </ul>
-                                    <h3 class="blog-one__title"><a href="blog-details">Health Benefits of Organic
-                                            Vegetables</a></h3>
+                                    <h3 class="blog-one__title"><a href="blog-details">How Gamma Irradiation Helps Meet Regulatory Requirements</a></h3>
                                     <p class="blog-one__text">Learn how organic vegetables benefit your health and the
                                         planet at the same time.</p>
                                 </div>

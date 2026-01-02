@@ -104,6 +104,18 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="accordion wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                <div class="accordion-title">
+                                    <h4>7. Is irradiation suitable for organic products?</h4>
+                                </div>
+                                <div class="accordion-content">
+                                    <div class="inner">
+                                        <p>
+                                            Regulatory acceptance varies by country; however, irradiation is permitted for safety purposes in many markets.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
 
 
                         </div>
@@ -118,7 +130,7 @@
                         <div class="faq-one-accordion accordion-grp" data-grp-name="faq-one-accordion">
                             <div class="accordion wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div class="accordion-title">
-                                    <h4>7. Is gamma irradiation approved for export?</h4>
+                                    <h4>8. Is gamma irradiation approved for export?</h4>
                                 </div>
                                 <div class="accordion-content">
                                     <div class="inner">
@@ -130,7 +142,7 @@
                             </div>
                             <div class="accordion wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div class="accordion-title">
-                                    <h4>8. Can packaged products be irradiated?</h4>
+                                    <h4>9. Can packaged products be irradiated?</h4>
                                 </div>
                                 <div class="accordion-content">
                                     <div class="inner">
@@ -142,7 +154,7 @@
                             </div>
                             <div class="accordion wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div class="accordion-title">
-                                    <h4>9. What radiation source is used in gamma irradiation?</h4>
+                                    <h4>10. What radiation source is used in gamma irradiation?</h4>
                                 </div>
                                 <div class="accordion-content">
                                     <div class="inner">
@@ -153,7 +165,7 @@
                             </div>
                             <div class="accordion wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div class="accordion-title">
-                                    <h4>10. How is the irradiation dose controlled?</h4>
+                                    <h4>11. How is the irradiation dose controlled?</h4>
                                 </div>
                                 <div class="accordion-content">
                                     <div class="inner">
@@ -165,7 +177,7 @@
                             </div>
                             <div class="accordion wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div class="accordion-title">
-                                    <h4>11. Is the process environmentally friendly?</h4>
+                                    <h4>12. Is the process environmentally friendly?</h4>
                                 </div>
                                 <div class="accordion-content">
                                     <div class="inner">
@@ -177,7 +189,7 @@
                             </div>
                             <div class="accordion wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div class="accordion-title">
-                                    <h4>12. What is the difference between irradiation and chemical fumigation?</h4>
+                                    <h4>13. What is the difference between irradiation and chemical fumigation?</h4>
                                 </div>
                                 <div class="accordion-content">
                                     <div class="inner">
@@ -197,6 +209,17 @@
                                     </div>
                                 </div>
                             </div> -->
+                            <div class="accordion wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                <div class="accordion-title">
+                                    <h4>14. How can clients avail irradiation services at Sukshma?</h4>
+                                </div>
+                                <div class="accordion-content">
+                                    <div class="inner">
+                                        <p>Clients can contact our team for product evaluation, dose recommendation, scheduling, and certification support.
+                                    </div>
+                                </div>
+                            </div>
+                            
 
                         </div>
 

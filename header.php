@@ -214,11 +214,11 @@
                                         </li>
                                         <li>
                                             <span class="icon-call"></span>
-                                            <a href="tel:123456789">+1 555-9990-153</a>
+                                            <a href="tel:+91 1234567892,">+91 1234567892</a>
                                         </li>
                                         <li>
                                             <span class="icon-email"></span>
-                                            <a href="mailto:info@example.com">info@example.com</a>
+                                            <a href="mailto:info@sukshmagamma.com">info@sukshmagamma.com</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -263,7 +263,7 @@
                                 <i class="icon-email"></i>
                             </div>
                             <div class="text">
-                                <p><a href="mailto:info@sukshmagamma24.com">vivek@sukshmagamma.com</a>
+                                <p><a href="mailto:info@sukshmagamma24.com">info@sukshmagamma.com</a>
                                 </p>
                             </div>
                         </li>
@@ -296,10 +296,13 @@
 
                                 </li>
                                 <li>
-                                    <a href="about">About</a>
+                                    <a href="about">About Us</a>
                                 </li>
                                 <li>
                                     <a href="gamma-irradiation">Gamma Irradiation</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">Process Line</a>
                                 </li>
                                 <li>
                                     <a href="product-application">Products & Applications</a>

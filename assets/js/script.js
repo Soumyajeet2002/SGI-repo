@@ -218,7 +218,7 @@
   // Brand One Carousel
   if ($(".brand-one__carousel").length > 0) {
     const BrandOneCarousel = new Swiper('.brand-one__carousel', {
-      "slidesPerView": 5,
+      "slidesPerView": 4,
       "spaceBetween": 10,
       "speed": 600,
       "loop": true,
@@ -258,11 +258,11 @@
         },
         "1200": {
           "spaceBetween": 10,
-          "slidesPerView": 5
+          "slidesPerView": 4
         },
         "1320": {
           "spaceBetween": 10,
-          "slidesPerView": 5
+          "slidesPerView": 4
         }
       },
     });
